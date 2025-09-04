@@ -85,7 +85,7 @@ const About = () => {
                 { name: "Neha Mishra", role: "Backend/ML", expertise: "Ai/ML" },
                 { name: "Mritunjay Singh", role: "Frontend", expertise: "Ui/ux" },
                 { name: "Nikhil Gupta", role: "Frontend(lead)", expertise: "Frontend" },
-                { name: "Purvi Sharma", role: "researcher", expertise: "Reserch and content" }
+                { name: "Purvi Sharma", role: "Researcher", expertise: "Reserch and content" }
               ].map((member, index) => (
                 <Card key={index} className="text-center hover-lift animate-fade-in-scale stagger-3">
                   <CardContent className="p-6">

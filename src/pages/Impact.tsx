@@ -11,51 +11,77 @@ const Impact = () => {
     { number: "60%", label: "Pesticide Reduction", icon: "🌱" },
     { number: "25M", label: "Tons CO₂ Saved", icon: "🌍" }
   ];
+const caseStudies = [
+  {
+    title: "Punjab - India",
+    challenge: "Excess irrigation, high costs, and low yields.",
+    solution: `🌾 Problem:
+Farmers in Punjab were facing excessive irrigation, rising costs, and declining yields.
 
-  const caseStudies = [
-    {
-      title: "Green Valley Farms - California",
-      challenge: "Water scarcity and rising operational costs",
-      solution: "Smart irrigation and IoT monitoring system",
-      results: [
-        "50% reduction in water usage",
-        "35% increase in crop yields",
-        "$150,000 annual savings"
-      ],
-      farmSize: "500 hectares",
-      crops: "Almonds, Grapes"
-    },
-    {
-      title: "Midwest Grain Cooperative - Iowa",
-      challenge: "Inconsistent yields and pest management",
-      solution: "Drone monitoring and AI-powered analytics",
-      results: [
-        "40% improvement in pest detection",
-        "25% increase in overall yields",
-        "30% reduction in pesticide use"
-      ],
-      farmSize: "2,000 hectares",
-      crops: "Corn, Soybeans"
-    },
-    {
-      title: "Sustainable Farms Network - Brazil",
-      challenge: "Large-scale monitoring and sustainability goals",
-      solution: "Comprehensive IoT network and precision agriculture",
-      results: [
-        "60% improvement in resource efficiency",
-        "45% reduction in environmental impact",
-        "20% increase in profitability"
-      ],
-      farmSize: "5,000 hectares",
-      crops: "Coffee, Sugarcane"
-    }
-  ];
+🎯 Solution:
+Adopted sustainable irrigation practices, optimized resource allocation, and implemented cost-efficient farming techniques with digital monitoring.
+
+🌍 Impact:
+- 50% reduction in water usage
+- 35% increase in crop yields
+- $150,000 annual savings`,
+    results: [
+      "50% reduction in water usage",
+      "35% increase in crop yields",
+      "$150,000 annual savings"
+    ],
+    farmSize: "500 hectares",
+    crops: ["Wheat", "Rice"]
+  },
+  {
+    title: "Odisha - India",
+    challenge: "Inconsistent yields and unsustainable practices.",
+    solution: `🌾 Problem:
+Farmers in Odisha continued to use unsustainable practices—excessive chemicals, over-irrigation, and mono-cropping—due to habit, limited training, and lack of engaging learning methods.
+
+🎯 Solution:
+Built a gamified digital platform that motivates farmers to adopt sustainable practices through interactive challenges, rewards, and community participation.
+
+🌍 Impact:
+- 40% improvement in pest detection
+- 25% increase in overall yields
+- 30% reduction in pesticide use`,
+    results: [
+      "40% improvement in pest detection",
+      "25% increase in overall yields",
+      "30% reduction in pesticide use"
+    ],
+    farmSize: "2,000 hectares",
+    crops: ["Sugarcane", "Paddy"]
+  },
+  {
+    title: "Uttar Pradesh - India",
+    challenge: "Resource inefficiency and environmental degradation.",
+    solution: `🌾 Problem:
+Farmers in Uttar Pradesh were experiencing resource inefficiency and increasing environmental degradation.
+
+🎯 Solution:
+Introduced interactive quizzes and awareness programs to educate farmers on sustainable agricultural practices and environmental care.
+
+🌍 Impact:
+- 60% improvement in resource efficiency
+- 45% reduction in environmental impact
+- 20% increase in profitability`,
+    results: [
+      "60% improvement in resource efficiency",
+      "45% reduction in environmental impact",
+      "20% increase in profitability"
+    ],
+    farmSize: "5,000 hectares",
+    crops: ["Wheat", "Mustard"]
+  }
+];
 
   const sustainabilityGoals = [
     {
-      goal: "Carbon Neutrality by 2030",
+      goal: "Education of farmers ",
       progress: 75,
-      description: "Helping farms reduce carbon emissions through smart technology"
+      description: "Helping farmers to get a high pay"
     },
     {
       goal: "50% Water Conservation",
