@@ -3,6 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Menu, X } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import DigitalFeaturesMenu from './DigitalFeaturesMenu';
 
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -32,6 +33,7 @@ const Navigation = () => {
     { to: '/', label: t('nav.home') },
     { to: '/about', label: t('nav.about') },
     { to: '/solutions', label: t('nav.solutions') },
+    // { to: '/digital-features', label: 'Digital Features' },
     { to: '/forum', label: 'Forum' },
     { to: '/progress', label: 'Progress' },
     { to: '/missions', label: 'Missions' },
@@ -68,6 +70,7 @@ const Navigation = () => {
 
           {/* Desktop CTA */}
           <div className="hidden lg:flex items-center gap-3">
+            <DigitalFeaturesMenu />
             <Link to="/contact">
               <Button variant="outline" className="hover-glow">
                 {t('common.getStarted')}
@@ -106,7 +109,10 @@ const Navigation = () => {
                   {link.label}
                 </Link>
               ))}
-              <div className="px-4 pt-2">
+              <div className="px-4 pt-2 space-y-2">
+                <div onClick={closeMobileMenu}>
+                  <DigitalFeaturesMenu />
+                </div>
                 <Link to="/contact" onClick={closeMobileMenu}>
                   <Button className="w-full" size="sm">
                     {t('common.getStarted')}

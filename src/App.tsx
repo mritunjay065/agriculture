@@ -18,6 +18,7 @@ import Forum from "./pages/Forum";
 import Topic from "./pages/Topic";
 import ProgressPage from "./pages/Progress";
 import MissionsPage from "./pages/Missions";
+import DigitalFeatures from "./pages/DigitalFeatures";
 // React import not required with JSX transform
 
 
@@ -58,6 +59,7 @@ const App = () => {
             <Route path="/forum/:id" element={<Topic />} />
             <Route path="/progress" element={<ProgressPage />} />
             <Route path="/missions" element={<MissionsPage />} />
+            <Route path="/digital-features" element={<DigitalFeatures />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
@@ -84,3 +86,4 @@ const App = () => {
 };
 
 export default App;
+

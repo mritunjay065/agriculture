@@ -6,12 +6,14 @@ import StatsSection from '@/components/StatsSection';
 import RealTimeDataDashboard from '@/components/RealTimeDataDashboard';
 import LiveFieldMonitor from '@/components/LiveFieldMonitor';
 import FarmerSpotlight from '@/components/FarmerSpotlight';
+import DigitalFeaturesShowcase from '@/components/DigitalFeaturesShowcase';
 
 const Index = () => {
   return (
     <div className="min-h-screen">
       <Navigation />
       <HeroSection />
+      <DigitalFeaturesShowcase />
       <StatsSection />
       <RealTimeDataDashboard />
       <LiveFieldMonitor />
