@@ -2,7 +2,7 @@
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/dbdefd73-73d2-4ff9-9723-5bdef2c51455
+**URL**:(https://agriculture-mauve-seven.vercel.app/)
 
 ## How can I edit this code?
 
@@ -10,7 +10,7 @@ There are several ways of editing your application.
 
 **Use Lovable**
 
-Simply visit the [Lovable Project](https://agriculture-mauve-seven.vercel.app/) and start prompting.
+Simply visit the [site] (https://agriculture-mauve-seven.vercel.app/) and start prompting.
 
 Changes made via Lovable will be committed automatically to this repo.
 
